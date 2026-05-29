@@ -1,0 +1,50 @@
+main {
+    padding: 1rem;
+}
+
+main a {
+    color: #333;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 3px solid #333;
+}
+
+th,
+td {
+    padding: 8px;
+}
+
+.input-40 {
+    width: 40ch;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+footer.footer-blue {
+    background-color: #2196f3;
+}
+
+footer.footer-red {
+    background-color: #f44336;
+}
+
+footer.footer-yellow {
+    background-color: #ffeb3b;
+}
